@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+header{
+  margin-top: 30px;
+  color: #3a55ad;
+}
+hr{
+  border-width: 3px;
+  border-color: #43A047;
+}
+h1{
+  font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+  text-align: center;
+}
+.align-light{
+    text-align: right;
+}
+.form-group{
+  margin-bottom: 35px;
+}
+footer p{
+  text-align: center;
+}
+input:required{
+  background: #ffcdd2;
+}
+input[type="email"]:invalid{
+  background: #ffcdd2;
+}
+input:valid{
+  background: transparent;
+}
+input:focus{
+  background: #DCEDC8;
+}
+button.btn--naby {
+  color: #fff;
+  background-color: #346dd6;
+  border-bottom: 5px solid #0d057e;
+}
+button.btn--naby:hover {
+  margin-top: 3px;
+  color: #fff;
+  background: #1442da;
+  border-bottom: 2px solid #022972;
+}
+button.btn--shadow {
+  box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+}
+.required::after {
+  content: "必須";
+  color: #ffffff;
+  background: #cc0000;
+  font-size: 0.8em;
+  padding: 0.3em;
+  border-radius: 0.5em;
+  margin-left:0.3em;
+}
+.button-wrapper{
+    text-align:center;
+}
+table {
+  width: 100%; 
+  border-collapse: collapse; 
+}
+table th {
+  padding: 10px; 
+  border: solid 1px black; 
+  color: #CCFFFF; 
+  background: #008080; 
+}
+table td { 
+  padding: 3px 10px; 
+  border: solid 1px black; 
+}
